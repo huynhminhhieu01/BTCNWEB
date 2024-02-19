@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.Warrper {
+    width: 1098px;
+    height: 800px;
+    border: 1px solid black;
+}
+.header {
+    height: 150px;
+    width: 1098px;
+    background-color:#294E79;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .text {
+    color: white;
+    float: left;
+    margin-top: 50px;
+
+    
+}
+.menu li {
+
+    list-style: none;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    list-style-type:none ;
+    margin-top: 100px;
+    background-color: #487EBB;
+    text-align: center;
+    
+}
+button {
+    background-color: #1f324e;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+.menu li:nth-child(5)
+    {
+        right: 90px;
+        line-height: 50px;
+        
+        }
+   
+    .menu li:nth-child(4)
+    {
+        right: 220px;
+        line-height: 50px;
+    
+    
+
+    }
+    .menu li:nth-child(3)
+    {
+        right:350px;
+        line-height: 50px;
+           
+
+    }
+    .menu li:nth-child(2)
+    {
+        right: 480px;
+        line-height: 50px;
+
+    }
+    .menu li:nth-child(1)
+    {
+        right: 610px;
+        line-height: 50px;
+
+    }
+.search {
+    float: right;
+    margin: 5px;
+}
+.search::placeholder {
+    color: blue;
+
+}
+.noidung {
+    width: 1098px;
+    height: 450px;
+}
+.left {
+    width: 700px;
+    float: left;
+}
+.left1 {
+    width: 400px;
+    float: left;
+}
+.left2{
+    width: 250px;
+    float: right;
+    margin-top: 10px;
+}
+#t1 {
+    border-bottom: 2px dotted black;
+}
+#t2 {
+    border-bottom: 2px dotted black;;
+
+}
+.left2 #text1 {
+    margin-top: 10px;
+}
+
+.left2 #text2 {
+    margin-top: 10px;
+}
+
+.left2 #text3 {
+    margin-top: 10px;
+}
+
+
+
+
+.right{
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    float: right;
+}
+.right  .nd{
+    width: 250px;
+}
+table {
+    margin-left: 2px;
+}
+table input {
+    margin-top: 10px;
+    width: 200x;
+    height: 20px;
+}
+
+#ms input{
+    height: 70px ;
+    width: 340px;
+}
+#sb input {
+    width: 100px;
+}
+
+.footer{
+    color: white;
+    width: 1098px;
+    height: 30px;
+    /* line-height: 60px; */
+    background-color: rgba(32,49,77,255);
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}

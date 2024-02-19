@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Contact US</h1>
+        <form action="#">
+            <fieldset>
+                <legend>Your message:</legend>
+                <div class="content">
+                    <div class="to">
+                        <label for="to" class="example">To</label>
+                        <input type="text" value="Example Cafe">
+                    </div>
+                    <div class="email">
+                        <label for="email">Your email</label>
+                        <input type="text">
+                    </div>
+                    <div class="mess">
+                        <label for="label-mess">Message</label>
+                        <textarea name="mess" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="file">
+                        <label for="label-file">Atttach File</label>
+                        <input type="file" value="choose file">
+                        <label for="label-chosen">No file chosen</label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <form action="#">
+            <fieldset>
+                <legend>How you found us:</legend>
+                <div class="content-found">
+                    <div class="google">
+                        <label for="us">How did you hear of us</label>
+                        <select name="Google" id="gg">
+                            <option value="Google">Google</option>
+                        </select>
+                    </div>
+                    <div class="new">
+                        <label for="new" class="letter">Newsletter</label>
+                        <input type="checkbox">
+                        <label for="Ensure">Ensure this box is checked if you would like to receive email updates</label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <input type="button" value="Send message" class="send">
+    </section>
+</body>
+</html>

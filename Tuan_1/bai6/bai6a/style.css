@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    width: 50%;
+    border-radius: 10px;
+    background-color: #99cdfd;
+}
+
+.logo{
+    text-align: center;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px auto;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.content{
+    padding: 0 40px 10px 40px;
+}
+
+.mar-100px{
+    margin-right: 100px;
+}
+
+.matb-4px{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.mar-70px{
+    margin-right: 70px;
+}
+
+.mar-88px{
+    margin-right: 88px;
+}
+
+.mar-118px{
+    margin-right: 118px;
+}
+
+.mar-120px{
+    margin-right: 120px;
+}
+
+.mar-145px{
+    margin-right: 145px;
+}
+
+.padd-2px{
+    padding: 2px;
+}
+
+hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.container-btn{
+    display: inline-block;
+}
+
+.btn{
+    width: 480px;
+    height: 54px;
+    position: relative;
+}
+
+.btn .container-btn{
+    position: absolute;
+}
+
+.btn .btn-1,
+.btn .btn-2,
+.btn .btn-govemment{
+    width: 364px;
+    height: 18px;
+}
+
+.btn #educationalInstitution{
+    margin-left: 68px;
+}
+
+.btn #other{
+    margin-left: 50px;
+}
+
+.content-btn{
+    width: 560px;
+    height: 40px;
+    position: relative;
+}
+
+.content-box{
+    display: inline-block;
+    width: 364px;
+    height: 40px;
+    position: absolute;
+    padding: 2px;
+}
+
+#unix{
+    margin-left: 30px;
+}
+
+#other{
+    margin-left: 23px;
+}
+
+.content-third{
+    width: 560px;
+    height: 180px;
+    position: relative;
+}
+
+.content-third .text-box{
+    width: 390px;
+    height: 140px;
+    padding: 2px;
+    position: absolute;
+}
+
+.content-third .btn{
+    width: 560px;
+    height: 150px;
+}
+
+.content-third .btn-box{
+    text-align: center;
+}
+
+.content-third button{
+    width: 90px;
+    height: 20px;
+}
+
+
+
+
